@@ -1,0 +1,11 @@
+name: pydata-book
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - jupyter
+  - pandas
+  - matplotlib
+  - jupyterlab
+prefix: /opt/conda/envs/pydata-book
